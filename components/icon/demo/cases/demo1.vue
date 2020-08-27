@@ -15,7 +15,8 @@
   </div>
 </template>
 
-<script>import {Icon} from 'mand-mobile'
+<script>
+import {Icon} from 'mand-mobile'
 
 export default {
   name: 'icon-demo',
@@ -23,10 +24,11 @@ export default {
   title: 'svg图标',
   titleEnUS: 'Svg Icon',
   align: 'center',
-  background: '#fff',
+  background: '#f40',
   /* DELETE */
   components: {
     [Icon.name]: Icon,
   },
 }
-</script>
+
+</script>
